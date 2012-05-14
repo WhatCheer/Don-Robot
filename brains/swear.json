@@ -1,0 +1,5 @@
+[
+	{ "match": "\\b(fuck|shit|bitch|damn|dammit|asshole|motherfucker|bastard|goddam)", "response": ["You should be ashamed of yourself!","You swear like a pirate.","Keep it clean or I tell Dusty.","Is this Gary V?","Simmer down!","There's no need for that language.","Woah buddy, chill!"] },
+	{ "match": "show me your <showthis>", "response": ["Show me your <showthis> first!","Not until I see your <showthis>!"] },
+	{ "match": "\\b(anal|anus|ballsack|blowjob|blow job|boner|buttplug|buttsex|cum|cock|clitoris|dick|dildo|dyke|fag|horny|hooker|hookers|handjob|jizz|muff|penis|porn|labia|queer|scrotum|sex|intercourse|pussy|slut|twat|vagina|whore)", "response": ["You're making me blush!","That sounds pretty personal.","You're making me blush!","I'll just go ahead and tweet that for you."] }
+]

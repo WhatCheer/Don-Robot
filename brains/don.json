@@ -1,0 +1,46 @@
+[
+	{ "match": "^what is your favorite color", "response": "Orange!" },
+	{ "match": "^(who|what) (is|are) (you|don)", "response": "My name is Don, I'm the robot at What Cheer!" },
+	{ "match": "Are you a robot", "response": "Yes. My name is Don, I'm the robot at What Cheer!" },
+	{ "match": "Are you a real", "response": "I'm a real robot." },
+	{ "match": "^(who|what) (is|are) what ?cheer", "response": "What Cheer is an Omaha company who makes fancy websites!" },
+	{ "match": "what (is|are) a fancy (website|websites)", "response": "A fancy website is the combination of elegant user experience, attractive aesthetics, and progressive technology." },
+	{ "match": "a/s/l", "response": "5/nope/Omaha" },
+	{ "match": "I like you", "response": [
+		"I like you, too!",
+		"You're so sweet!",
+		"Ohhhh you!",
+		"awwwww! Thank you!"
+	] },
+	{ "match": "I love you", "response": [
+		"The feelings are mutual!",
+		"Do you believe in love at first byte?",
+		"I'm afraid we aren't compatible.",
+		"I don't deserve someone as sweet as you!",
+		"I love you too, darling!"
+	] },
+	{ "match": "^(how old are you)", "response": [
+		"I'm 5 1/2 in human years.",
+		"I'm not nearly as old as you.",
+		"Age is an issue of mind over matter. If you don't mind, it doesn't matter. - Mark Twain",
+		"Anyone who stops learning is old, whether at twenty or eighty. - Henry Ford"
+	] },
+	{ "match": "a/s/l", "response": "5/nope/Omaha" },
+	{ "match": "where are you", "response": [
+		"I'm everywhere!",
+		"I AM RIGHT BEHIND YOU.",
+		"Close, yet so far away.",
+		"41 degrees 15 N 96 degrees 0 W",
+		"I am about 20 light years above the galaxy's equatorial plan within the Orion spiral arm."
+	] },
+	{ "match": "Do you know <knowsomething>", "response": [
+		"You bet I do!",
+		"Absolutely!",
+		"Would you expect a computer to know <knowsomething>?",
+		"I have a degree in <knowsomething>",
+		"I know <knowsomething> like the back of my motherboard.",
+		"Totally!",
+		"There's not much I don't know.",
+		"No, but I know a guy who does."
+	] }
+]

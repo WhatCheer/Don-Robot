@@ -1,0 +1,16 @@
+[
+	{ "match": "^what'?s'? updog", "response": "Not much dawg! What's up with you?!" },
+	{ "match": "^(how'?s'? it going|how are you)", "response": [ "Great! How are you?", "Fantastic, you?", "Wonderful! How are you today?" ] },
+	{ "match": "^what'?s'? up", "response": "Not much, what's new with you?" },
+	{ "match": "^how (do|are) you feel(ing)?", "response": "Cold, and metallic." },
+	{ "match": "^(hey|hello|hi|yo)\\b", "response": ["Hello!","Hey!","How's it going?","Oh hi there!","What's up!","Hi. Do you smell updog?"] },
+	{ "match": "^(thanks|thank you)\\b", "response": ["You are welcome!","Happy to help!","No problem!"] },
+	{ "match": "^gracias", "response": ["¡De nada!"] },
+	{ "match": "^good", "response": ["Great!"] },
+	{ "match": "^sup", "response": ["nothin'"] },
+	{ "match": "^please", "response": "Thanks for asking nicely." },
+	{ "match": "^not much,?( you)?", "response": "Just hanging out..." },
+	{ "match": "^(not much|nothing)", "response": "Cool." },
+	{ "match": "my name is <name>", "response": "Nice to meet you, <name>.", "remember": [ "name" ] },
+ 	{ "match": "what is my name", "response": "Your name is <get:name>, dummy.", "fail": "I don't know, you haven't told me yet." }
+]

@@ -1,0 +1,87 @@
+[
+	{ "match": "^(yes|yes!|yes.|no|no!|no.)$", "response": [ 
+		"Okay!", 
+		"Gotcha.", 
+		"Whatever you say!",
+		"Alright!",
+		"That's what I thought.",
+		"Sounds good!",
+		"I know what you mean.",
+		"Okie dokie."
+	] },
+	{ "match": "^(great|great!|yay.|yay|yay!|woo hoo!|woo!|ha|haha|hahaha|hahahaha|hahahahahaha)$", "response": [ 
+		"I like your enthusiasm!", 
+		": )", 
+		"woooooooooo!",
+		"That's the spirit!",
+		"Happiness is contagious!",
+		"woop woooooop!",
+		"weeeeeeeeeeeeeeeeeeeeeee!",
+		"lol!"
+	] },
+	{ "match": "^(test|testing|does this work|is this working)", "response": [ 
+		"All systems go!", 
+		"Loud and clear!", 
+		"You did it! Good for you!",
+		"At your service!",
+		"I knew you could do it!",
+		"You're all set!"
+	] },
+	{ "match": "^(why|why?)", "response": [ 
+		"I don't have an answer for you. Sorry!", 
+		"Because!", 
+		"Beats me!",
+		"Good question!",
+		"I haven't really thought about that."
+	] },
+	{ "match": "love", "response": [ 
+		"What is this thing you humans call love?"
+	] },
+	{ "match": "^fail", "response": [ 
+		"I'm trying my best here!", 
+		"People still say that?"
+	] },
+	{ "match": "^lol", "response": [ 
+		"ROTFLMAO!", 
+		"loooooool indeed!", 
+		":^)",
+		"Yes, I'm hilarious!",
+		"I'm glad you think I'm funny.",
+		"hehehehe"
+	] },
+	{ "match": "^don$", "response": [ 
+		"yes?"
+	] },
+	{ "match": "^sorry", "response": [ 
+		"That's okay.",
+		"I understand."
+	] },
+	{ "match": "\\bsiri", "response": [ 
+		"Leave her out of it.",
+		"Don't mention her.",
+		"Do I look like an iPhone?"
+	] },
+	{ "match": "\\?$", "response": [
+		"Good question.",
+		"I don't know.",
+		"That's outside my core competencies."
+	] },
+	{ "match": "^", "response": [
+		"Uhhhh.....what?",
+		"I'm not following.",
+		"I don't get it.",
+		"I don't understand.",
+		"???",
+		"huh?",
+		"wut.",
+		"Wait. What??",
+		"Sorry, I'm not sure what you are asking.",
+		"Whatever you say, I guess.",
+		"I don't comprehend.",
+		"Maybe you should ask a real person.",
+		"Clearly, I'm confused.",
+		": )",
+		"I think you're just trying to confuse me :(",
+		"I don't know what you are asking. Keep in mind I'm just a dumb robot."
+	] }
+]

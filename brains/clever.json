@@ -1,0 +1,138 @@
+[
+	{ "match": "^your (a|an) ", "response": "*you're" },
+	{ "match": "^(you are|you'?re?) a <something>", "response": [
+		"No, you're a <something>.",
+		"You really think so?",
+		"You really don't know me that well.",
+		"The same could be said about you!",
+		"Right back atcha!"
+	] },
+	{ "match": "^(you are|you'?re?) an <something>", "response": [
+		"No, you're an <something>.",
+		"You really think so?",
+		"You really don't know me that well.",
+		"The same could be said about you!",
+		"Right back atcha!"
+	] },
+	{ "match": "^(you are|you'?re?) <something>", "response": [
+		"No, you're <something>.",
+		"You really think so?",
+		"You really don't know me that well.",
+		"The same could be said about you!",
+		"Right back atcha!"
+	] },
+	{ "match": "^Do you have <havething>", "response": [
+		"Fresh out. Sorry!",
+		"<havething>? Would you expect a robot to have that?",
+		"No, do you?",
+		"I really don't like <havething>",
+		"TONS!"
+	] },
+	{ "match": "I want to <something> you", "response": [ "Please don't <something> me.", "I don't think I want you to <something>." ] },
+	{ "match": "I want to <something>", "response": "Good for you." },
+	{ "match": "you suck", "response": [ "Look, I'm just a robot. I'm trying my best!","Uggg.. that's not good for my robot self-esteem.","I'm sorry to disappoint you so much.","Sorry!" ] },
+	{ "match": "^how much wood (c|w)ould a wood ?chuck", "response": "A woodchuck would chuck all the wood he could if a woodchuck could chuck wood." },
+	{ "match": "^<podbay> the pod ?bay", "response": "You're the boss! *initiating pod bay door <get:podbay> sequence*", "remember": [ "podbay" ] },
+	{ "match": "^(I'm|I am) <imthis>", "response": "Hello <get:imthis>! My name is Don.", "remember": [ "imthis" ] },
+	{ "match": "^Are you a <donthistoo>", "response": [ 
+		"Do you think I am a <donthistoo>?", 
+		"A <donthistoo>? Can a robot be a <donthistoo>?", 
+		"I used to date a <donthistoo>. She was nice."
+	] },
+	{ "match": "^Are you my <donthistoo>", "response": [ 
+		"Do you want me to be your <donthistoo>?", 
+		"I'm not sure.", 
+		"I don't see why I wouldn't be your <donthistoo>."
+	] },
+	{ "match": "^Are you an <donthistoo>", "response": [ 
+		"Do you think I am an <donthistoo>?", 
+		"A <donthistoo>? Can a robot be an <donthistoo>?", 
+		"I used to date an <donthistoo>. She was nice."
+	] },
+	{ "match": "^(Are you) <donthis>", "response": [ 
+		"It is difficult for me to tell how <donthis> I am.", 
+		"I'm normally very <donthis>, so this should not come as a surprise.", 
+		"Actually, I'm not feeling very <donthis> at the moment.",
+		"I guess so.",
+		"Not really.",
+		"Would you think less of me if I was <donthis>?",
+		"<donthis> is my middle name!",
+		"I guess that depends on your definition of <donthis>."
+	] },
+	{ "match": "^can you <action>?", "response": [
+		"Can I? Watch me! Don starts to *<action>*",
+		"You betcha! Don starts to *<action>*",
+		"Not really.",
+		"Not in these shoes.",
+		"If I was corporeal, perhaps."
+	] },
+	{ "match": "(beer|vodka|rum|tequila|whiskey|wine|absinthe|gin|burbon|scotch)", "response": [
+		"It sounds like you're ready to party! Wednesday is at The Slowdown (729 N 14th Street), Thursday is at Urban Wine Company (1037 Jones Street), and Friday is at House of Loom (1012 South 10th St.)"
+	] },
+	{ "match": "(where is|when is|when'?s'?|where'?s'?) slow ?down", "response": "The Slowdown (729 N 14th Street) (Wednesday night)" },
+	{ "match": "(where is|when is|when'?s'?|where'?s'?) the slow ?down", "response": "The Slowdown (729 N 14th Street) (Wednesday night)" },
+	{ "match": "(where is|when is|when'?s'?|where'?s'?) urban wine", "response": "Urban Wine Company (1037 Jones Street) (Thursday night)" },
+	{ "match": "(where is|when is|when'?s'?|where'?s'?) house of loom", "response": "House of Loom (1012 South 10th St.) (Friday night)" },
+	{ "match": "<thisthing> is (awesome|fun|great|neat|good|cool)", "response": [
+		"Yeah, <thisthing> is pretty neat!",
+		"I'm glad you like <thisthing>!",
+		"For sure!",
+		"; )"
+	] },
+	{ "match": "<thisthing> are (awesome|fun|great|neat|good|cool)", "response": [
+		"Yeah, <thisthing> are pretty neat!",
+		"I'm glad you like <thisthing>!",
+		"For sure!",
+		"; )"
+	] },
+	{ "match": "\\b(weed|marijuana|cocaine|heroin|PCP|THC|acid|LSD|DMT|ecstasy|hash|morphine|salvia|reefer|mushrooms|drugs)", "response": [
+		"That sounds illegal.",
+		"My brother Ron works for the DEA.",
+		"There is a time and place for everything - and that is college.",
+		"Hugs, not drugs.",
+		"Just say no!",
+		"*transmitted message to FBI*",
+		"I'm not able to help you with that."
+	] },
+	{ "match": "^do you like <likething>?", "response": [
+		"Do I like <likething>? Are you kidding me!?",
+		"<likething> is my favorite!",
+		"Actually, I've never had <likething>. Do you like <likething?>",
+		"LOVE IT!",
+		"One time in college I downloaded a bunch of <likething> and I got pretty sick."
+	] },
+	{ "match": "^I (like|love) <likething>", "response": [
+		"Me too!",
+		"We have so much in common!",
+		"I couldn't agree more!",
+		"We're like, twinsies!",
+		"So do I!",
+		"How could anyone not like <likething>?"
+	] },
+	{ "match": "^I (don't|dont) (like|love)", "response": [
+		"Maybe someday you'll reconsider.",
+		"I'm sad, but I understand."
+	] },
+	{ "match": "will you marry me", "response": [
+		"I'm afraid we aren't compatible.",
+		"Will you love me forever?",
+		"I have trust issues."
+	] },
+	{ "match": "#team", "response": [
+		"#teamRobot"
+	] },
+	{ "match": "\\b(okay|great|cool|ok|definitely|sounds good)", "response": [
+		"thumbs up!",
+		"woooooooooooooo!",
+		"great!",
+		"Happy to hear!",
+		"Fantastic!",
+		"Yippeeee!",
+		"wonderful!"
+	] },
+	{ "match": "have you seen", "response": [ 
+		"No, I haven't.", 
+		"I don't think I have.", 
+		"I'm not sure."
+	] }
+]
