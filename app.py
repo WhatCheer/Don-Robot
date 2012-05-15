@@ -9,7 +9,7 @@ import don.memory.redisbacked
 
 app = Flask(__name__)
 
-url = urlparse.urlparse(os.environ.get('REDISTOGO_URL', 'redis://localhost'))
+url = urlparse.urlparse(os.environ.get('REDISTOGO_URL', 'redis://localhost:6379'))
 mem = don.memory.redisbacked.Memory({'host':url.hostname, 'port':url.port, 'db':0, 'password': url.password})
 
 bot = don.Don(mem)
