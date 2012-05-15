@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- Made with Joy by What Cheer ♥ http://whatcheer.com -->
+		<title>Don the Robot</title>
+		<link rel="stylesheet" href="/static/style.css" type="text/css" media="all" />
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="shortcut icon" href="/static/favicon.ico" type="image/png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+	</head>
+	<body onload="setTimeout(function(){window.scrollTo(0,1)},100);">
+		<div class="wrapper">
+			<img src="/static/don.png" alt="Don" />
+			<div id="messages"></div>
+			<input type="text" value="Hello!" name="body" id="body" /><input type="submit" value="Send" id="send" />
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="/static/chat.js"></script>
+	</body>
+</html>

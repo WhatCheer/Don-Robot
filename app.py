@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import request, make_response
+from flask import Flask, request, make_response, render_template
 
 import json
 
@@ -16,6 +15,10 @@ for f in ['swear', 'don', 'hello', 'jokes', 'clever', 'lastresort']:
         bot.loadBrain(json.loads(handle.read()));
 
 @app.route("/")
+def index():
+	return render_template('index.html')
+
+@app.route("/chat.txt")
 def chat():
     body = request.args.get('body')
     convo = request.args.get('conversation')
