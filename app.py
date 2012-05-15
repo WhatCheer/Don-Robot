@@ -1,13 +1,17 @@
 from flask import Flask, request, make_response, render_template
 
 import json
+import urlparse
+import os
 
 import don
 import don.memory.redisbacked
 
 app = Flask(__name__)
 
-mem = don.memory.redisbacked.Memory()
+url = urlparse.urlparse(os.environ.get('REDISTOGO_URL', 'redis://localhost'))
+mem = don.memory.redisbacked.Memory({'host':url.hostname, 'port':url.port, 'db':0, 'password': url.password})
+
 bot = don.Don(mem)
 
 for f in ['swear', 'don', 'hello', 'jokes', 'clever', 'lastresort']:
